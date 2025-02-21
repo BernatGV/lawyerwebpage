@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>LN Abogados</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/LopezNunezLogo.jpg" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Whatsapp -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- =======================================================
+  * Template Name: Presento - v1.0.0
+  * Template URL: https://bootstrapmade.com/presento-bootstrap-portfolio-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 d-flex align-items-center">
+                    <h1 class="logo mr-auto"><a href="index.html">López & Núñez Abogados</a></h1>
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                    <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
+                    <nav class="nav-menu d-none d-lg-block">
+                        <ul>
+                            <li class="active"><a href="#header" data-lang="inicio">${lang.inicio}</a></li>
+                            <li><a href="#about" data-lang="quienes-somos">${lang.['quienes-somos']}</a></li>
+                            <li><a href="#services" data-lang="igualas">${lang.igualas}</a></li>
+                            <li class="drop-down cursor"><a data-lang="servicios-juridicos">${lang.['servicios-juridicos']}</a>
+                                <ul>
+                                    <li><a href="#civil" data-lang="civil">${lang.civil}</a></li>
+                                    <li><a href="#familia" data-lang="familia">${lang.familia}</a></li>
+                                    <li><a href="#penal" data-lang="penal">${lang.penal}</a></li>
+                                    <li><a href="#fiscal" data-lang="fiscal">${lang.fiscal}</a></li>
+                                    <li><a href="#urbanismo-medio-ambiente" data-lang="urbanismo-medio-ambiente">${lang['urbanismo-medio-ambiente']}</a></li>
+                                    <li><a href="#proteccion-datos" data-lang="proteccion-datos">${lang['proteccion-datos']}</a></li>
+                                    <li><a href="#administrativo" data-lang="administrativo">${lang.administrativo}</a></li>
+                                    <li><a href="#laboral" data-lang="laboral">${lang.laboral}</a></li>
+                                    <li><a href="#extranjeria" data-lang="extranjeria">${lang.extranjeria}</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#contacto" data-lang="contacto">${lang.contacto}</a></li>
+                        </ul>
+                    </nav><!-- .nav-menu -->
+                    <a href="#about" class="get-started-btn scrollto" data-lang="conocenos">${lang.conocenos}</a>
+                    <nav id="lang-nav-buttons">
+                        <button type="button" onclick="changeLang('en');" title="English"><img src="assets/img/flags/uk-flag.png" alt="English" class="flag-img"></button>
+                        <button type="button" onclick="changeLang('es');" title="Español"><img src="assets/img/flags/spain-flag.png" alt="Español" class="flag-img"></button>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex">
+        <div class="container-fluid align-hero-title" data-aos="zoom-out" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div id="hero-description" class="row">
+                        <div id="hero-hidden-media" class="col-xl-6">
+                            <!-- <h1>Bienvenidos a López & Núñez Abogados</h1> -->
+                            <h2><i data-lang="eslogan-justicia">${lang['eslogan-justicia']}</i></h2>
+                            <h2 style="text-align: right; padding-right: 5rem">Ulpiano</h2>
+                            <a href="#about" class="get-started-btn scrollto" data-lang="conocenos">${lang.conocenos}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Hero -->
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="row no-gutters">
+                    <div class="content col-xl-12 d-flex align-items-stretch">
+                        <div class="content">
+                            <p data-lang="quienes-somos-descripcion-1">${lang['quienes-somos-descripcion-1]}</p>
+                            <p data-lang="quienes-somos-descripcion-2">${lang['quienes-somos-descripcion-2']}</p>
+                            <!-- <a href="#" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a> -->
+                            <center>
+                                <video width="320" height="240" controls>
+                                  <source src="assets/video/video-promo-lopezynunezabogados.mp4" type="video/mp4">
+                                  Your browser does not support the video tag.
+                                </video>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="content col-xl-12 d-flex align-items-stretch">
+                        <div class="content row">
+                            <div class="col-md-7">
+                                <p>
+                                    <b data-lang="nombre-carmen-nc">        ${lang['nombre-carmen-nc']}</b>
+                                </p>
+                                <p><a href="mailto: carmenlopezynunezabogados@gmail.com">carmenlopezynunezabogados@gmail.com</a></p>                            
+                                <p data-lang="carmen-descripcion-1">
+                                    ${lang['carmen-descripcion-1']}
+                                </p>
+                                <p data-lang="carmen-descripcion-2">
+                                    ${lang['carmen-descripcion-2']}
+                                </p>
+                                <p data-lang="carmen-descripcion-3">
+                                    ${lang['carmen-descripcion-3']}
+                                </p>
+                                <p data-lang="carmen-descripcion-4">
+                                    ${lang['carmen-descripcion-4']}
+                                </p>
+                            </div>
+                            <div class="col-md-5" style="margin-top: 8%;">
+                                <img class="team member member-img" src="assets/img/team/team_1.jpeg" width="351.75" height="345.6"><!--width="2345" height="2304">-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content col-xl-12 d-flex align-items-stretch">
+                        <div class="content row">
+                            <div class="col-md-7">
+                                <p>
+                                    <b data-lang="nombre-cristina-rg">${lang['nombre-cristina-rg']}</b>
+                                </p>
+                                <p><a href="mailto: cristinaraga@icadiz.net">cristinaraga@icadiz.net</a></p>                            
+                                <p data-lang="cristina-descripcion-1">
+                                    ${lang['cristina-descripcion-1']}
+                                </p>                            
+                                <p data-lang="cristina-descripcion-2">
+                                    ${lang['cristina-descripcion-2']}
+                                </p>                            
+                                <p data-lang="cristina-descripcion-3">
+                                    ${lang['cristina-descripcion-3']}
+                                </p>                            
+                                <p data-lang="cristina-descripcion-4">
+                                    ${lang['cristina-descripcion-4']}
+                                </p>                            
+                                <p data-lang="cristina-descripcion-5">
+                                    ${lang['cristina-descripcion-5']}
+                                </p>
+                            </div>
+                            <div class="col-md-5" style="margin-top: 8%;">
+                                <img class="team member member-img" src="assets/img/team/team_2.jpg" width="339.2" height="364.6"><!--width="1696" height="1823">-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content col-xl-12 d-flex align-items-stretch">
+                        <div class="content row">
+                            <div class="col-md-7">
+                                <p>
+                                    <b data-lang="nombre-lola-nc">${lang['nombre-lola-nc']}</b>
+                                </p>
+                                <p><a href="mailto: lopezynunezabogados@gmail.com">lopezynunezabogados@gmail.com</a></p>                            
+                                <p data-lang="lola-descripcion-1">
+                                    ${lang['lola-descripcion-1']}
+                                </p>                            
+                                <p data-lang="lola-descripcion-2">
+                                    ${lang['lola-descripcion-2']}
+                                </p>                            
+                                <p data-lang="lola-descripcion-3">
+                                    ${lang['lola-descripcion-3']}
+                                </p>                            
+                                <p data-lang="lola-descripcion-4">
+                                    ${lang['lola-descripcion-4']}
+                                </p>                            
+                                <p data-lang="lola-descripcion-5">
+                                    ${lang['lola-descripcion-5']}
+                                </p>
+                            </div>
+                            <div class="col-md-5" style="margin-top: 8%;">
+                                <img class="team member member-img" src="assets/img/team/team_3.jpg" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End About Section -->
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+        </section><!-- End Counts Section -->
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-lang="igualas">${lang.igualas}</h2>
+                    <p data-lang="igualas-descripcion">${lang['igualas-descripcion']}</p>
+                  </br>
+                    <h3 data-lang="igualas-tipos">
+                        ${lang['igualas-tipos']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <h4 data-lang="iguala-esencial">${lang['iguala-esencial']}</h4>
+                            </br>
+                            <ul>
+                                <li data-lang="iguala-esencial-lista-1">${lang['iguala-esencial-lista-1']}</li>
+                                <li data-lang="iguala-esencial-lista-2">${lang['iguala-esencial-lista-2']}</li>
+                                <li data-lang="iguala-esencial-lista-3">${lang['iguala-esencial-lista-3']}</li>
+                                <li data-lang="iguala-esencial-lista-4">${lang['iguala-esencial-lista-4']}</li>
+                            </ul>
+                            <p data-lang="iguala-esencial-precio">  ${lang['iguala-esencial-precio']}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <h4 data-lang="iguala-estandar">${lang['iguala-estandar']}</h4>
+                            </br>
+                            <ul>
+                                <li data-lang="iguala-estandar-lista-1">${lang['iguala-estandar-lista-1']}</li>
+                                <li data-lang="iguala-estandar-lista-2">${lang['iguala-estandar-lista-2']}</li>
+                                <li data-lang="iguala-estandar-lista-3">${lang['iguala-estandar-lista-3']}</li>
+                                <li data-lang="iguala-estandar-lista-4">${lang['iguala-estandar-lista-4']}</li>
+                                <li data-lang="iguala-estandar-lista-5">${lang['iguala-estandar-lista-5']}</li>
+                            </ul>
+                            <p data-lang="iguala-estandar-precio">  ${lang['iguala-estandar-precio']}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <h4 data-lang="iguala-plus">${lang['iguala-plus']}</h4>
+                            </br>
+                            <ul>
+                                <li data-lang="iguala-plus-lista-1">${lang['iguala-plus-lista-1']}</li>
+                                <li data-lang="iguala-plus-lista-2">${lang['iguala-plus-lista-2']}</li>
+                                <li data-lang="iguala-plus-lista-3">${lang['iguala-plus-lista-3']}</li>
+                                <li data-lang="iguala-plus-lista-4">${lang['iguala-plus-lista-4']}</li>
+                                <li data-lang="iguala-plus-lista-5">${lang['iguala-plus-lista-5']}</li>
+                            </ul>
+                            <p data-lang="iguala-plus-precio">  ${lang['iguala-plus-precio']}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Services Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <section id="servicios-juridicos" class="contact">
+            <div class="container contact-table" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-lang="servicios-juridicos">${lang['servicios-juridicos']}</h2>
+                </div>
+            </div>
+        </section><!-- End Counts Section -->
+        <!-- Init Civil Section -->
+        <section id="civil" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="civil" class="to-uppercase">
+                        ${lang['civil']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="civil-lista-1">${lang['civil-lista-1']}</li>
+                            <li data-lang="civil-lista-2">${lang['civil-lista-2']}</li>
+                            <li data-lang="civil-lista-3">${lang['civil-lista-3']}</li>
+                            <li data-lang="civil-lista-4">${lang['civil-lista-4']}</li>
+                            <li data-lang="civil-lista-5">${lang['civil-lista-5']}</li>
+                            <li data-lang="civil-lista-6">${lang['civil-lista-6']}</li>
+                            <li data-lang="civil-lista-7">${lang['civil-lista-7']}</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Civil Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- Init Familia Section -->
+        <section id="familia" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="familia" class="to-uppercase">
+                        ${lang['familia']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="familia-lista-1">${lang['familia-lista-1']}</li>
+                            <li data-lang="familia-lista-2">${lang['familia-lista-2']}</li>
+                            <li data-lang="familia-lista-3">${lang['familia-lista-3']}</li>
+                            <li data-lang="familia-lista-4">${lang['familia-lista-4']}</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Familia Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- Init Penal Section -->
+        <section id="penal" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="penal" class="to-uppercase">
+                        ${lang['penal']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li data-lang="penal-lista-1">${lang['penal-lista-1']}</li>
+                            <li data-lang="penal-lista-2">${lang['penal-lista-2']}</li>
+                            <li data-lang="penal-lista-3">${lang['penal-lista-3']}</li>
+                            <li data-lang="penal-lista-4">${lang['penal-lista-4']}</li>
+                            <li data-lang="penal-lista-5">${lang['penal-lista-5']}</li>
+                            <li data-lang="penal-lista-6">${lang['penal-lista-6']}</li>
+                            <li data-lang="penal-lista-7">${lang['penal-lista-7']}</li>
+                            <li data-lang="penal-lista-8">${lang['penal-lista-8']}</li>
+                            <li data-lang="penal-lista-9">${lang['penal-lista-9']}</li>
+                            <li data-lang="penal-lista-10">${lang['penal-lista-10']}</li>
+                            <li data-lang="penal-lista-11">${lang['penal-lista-11']}</li>
+                            <li data-lang="penal-lista-12">${lang['penal-lista-12']}</li>
+                            <li data-lang="penal-lista-13">${lang['penal-lista-13']}</li>
+                            <li data-lang="penal-lista-14">${lang['penal-lista-14']}</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Penal Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- Init Fiscal Section -->
+        <section id="fiscal" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="fiscal" class="to-uppercase">
+                        ${lang['fiscal']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="fiscal-lista-1">${lang['fiscal-lista-1']}</li>
+                            <li data-lang="fiscal-lista-2">${lang['fiscal-lista-2']}</li>
+                            <li data-lang="fiscal-lista-3">${lang['fiscal-lista-3']}</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Fiscal Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- Init Urbanismo y medio ambiente Section -->
+        <section id="urbanismo-medio-ambiente" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="urbanismo-medio-ambiente" class="to-uppercase">
+                        ${lang['urbanismo-medio-ambiente']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <p data-lang="urbanismo-medio-ambiente-descripcion">${lang['urbanismo-medio-ambiente-descripcion']}</p>
+                    <p data-lang="urbanismo-medio-ambiente-servicios">${lang['urbanismo-medio-ambiente-servicios']}</p>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="urbanismo-medio-ambiente-lista-1">${lang['urbanismo-medio-ambiente-lista-1']}</li>
+                            <li data-lang="urbanismo-medio-ambiente-lista-2">${lang['urbanismo-medio-ambiente-lista-2']}</li>
+                            <li data-lang="urbanismo-medio-ambiente-lista-3">${lang['urbanismo-medio-ambiente-lista-3']}</li>
+                            <li data-lang="urbanismo-medio-ambiente-lista-4">${lang['urbanismo-medio-ambiente-lista-4']}</li>
+                            <li data-lang="urbanismo-medio-ambiente-lista-5">${lang['urbanismo-medio-ambiente-lista-5']}</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Urbanismo y medio ambiente Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- Init Protección de datos -->
+        <section id="proteccion-datos" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="proteccion-datos" class="to-uppercase">
+                        ${lang['proteccion-datos']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div>
+                        <p data-lang="proteccion-datos-descripcion-1">${lang['proteccion-datos-descripcion-1']}</p>
+                        <p>
+                        <p data-lang="proteccion-datos-descripcion-2">${lang['proteccion-datos-descripcion-2']}</p>
+                        <p>
+                        <p data-lang="proteccion-datos-descripcion-3">${lang['proteccion-datos-descripcion-3']}</p>
+                        <p>
+                        <p data-lang="proteccion-datos-descripcion-4">${lang['proteccion-datos-descripcion-4']}</p>
+                        <p>
+                        <p data-lang="proteccion-datos-descripcion-5">${lang['proteccion-datos-descripcion-5']}</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="proteccion-datos-lista-1">${lang['proteccion-datos-lista-1']}</li>
+                            <li data-lang="proteccion-datos-lista-2">${lang['proteccion-datos-lista-2']}</li>
+                            <li data-lang="proteccion-datos-lista-3">${lang['proteccion-datos-lista-3']}</li>
+                            <li data-lang="proteccion-datos-lista-4">${lang['proteccion-datos-lista-4']}</li>
+                            <li data-lang="proteccion-datos-lista-5">${lang['proteccion-datos-lista-5']}</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Protección de datos -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- Init Derecho administrativo -->
+        <section id="administrativo" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="administrativo" class="to-uppercase">
+                        ${lang['administrativo']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="administrativo-lista-1">${lang['administrativo-lista-1']}</li>
+                            <li data-lang="administrativo-lista-2">${lang['administrativo-lista-2']}</li>
+                            <li data-lang="administrativo-lista-3">${lang['administrativo-lista-3']}</li>
+                            <li data-lang="administrativo-lista-4">${lang['administrativo-lista-4']}</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Derecho administrativo Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- Init Derecho laboral Section -->
+        <section id="laboral" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="laboral" class="to-uppercase">
+                        ${lang['laboral']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="laboral-lista-1">${lang['laboral-lista-1']}</li>
+                            <li data-lang="laboral-lista-2">${lang['laboral-lista-2']}</li>
+                            <li data-lang="laboral-lista-3">${lang['laboral-lista-3']}</li>
+                            <li data-lang="laboral-lista-4">${lang['laboral-lista-4']}</li>
+                            <li data-lang="laboral-lista-5">${lang['laboral-lista-5']}</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Derecho laboral Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->        
+        <!-- Init Extranjería Section -->
+        <section id="extranjeria" class="services section-bg ">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3 data-lang="extranjeria" class="to-uppercase">
+                        ${lang['extranjeria']}
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <ol>
+                            <li data-lang="extranjeria-lista-1">${lang['extranjeria-lista-1']}</li>
+                            <li data-lang="extranjeria-lista-2">${lang['extranjeria-lista-2']}</li>
+                            <li data-lang="extranjeria-lista-3">${lang['extranjeria-lista-3']}</li>
+                            <li data-lang="extranjeria-lista-4">${lang['extranjeria-lista-4']}</li>
+                            <li data-lang="extranjeria-lista-5">${lang['extranjeria-lista-5']}</li>
+                            <li data-lang="extranjeria-lista-6">${lang['extranjeria-lista-6']}</li>
+                            <li>
+                                <span data-lang="extranjeria-lista-7">${lang['extranjeria-lista-7']}</span>
+                                <ul>
+                                    <li data-lang="extranjeria-lista-7.1">${lang['extranjeria-lista-7.1']}</li>
+                                    <li data-lang="extranjeria-lista-7.2">${lang['extranjeria-lista-7.2']}</li>
+                                    <li data-lang="extranjeria-lista-7.3">${lang['extranjeria-lista-7.3']}</li>
+                                </ul>  
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Extranjería Section -->
+        <!-- Init Blank Section -->
+        <section id="" class="counts">
+        </section><!-- End Blank Section -->
+        <!-- 
+
+
+         -->
+        <!-- ======= Contact Section ======= -->
+        <section id="contacto" class="contact">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-lang="contacto">${lang.contacto}</h2>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="info-box info-box-custom">
+                                    <i class="bx bx-map"></i>
+                                    <h3 data-lang="contacto-visitenos"></h3>
+                                    <p>C/ Nao San Antonio, Edificio San Fernando, Local 1.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="info-box info-box-custom mt-4">
+                                    <i class="bx bx-envelope"></i>
+                                    <h3 data-lang="contacto-escribanos"></h3>
+                                    <p>infolopezynunezabogados@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info-box info-box-custom mt-4">
+                                    <i class="bx bx-phone-call"></i>
+                                    <h3 data-lang="contacto-llamenos"></h3>
+                                    <p>856620297</p>
+                                </div>
+                            </div>                            
+                            <div class="col-md-3">
+                                <div class="info-box mt-4">
+                                    <div>
+                                        <a href="https://wa.me/34601881012" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+                                    </div>
+                                    <h3>Whatsapp</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="form-row">
+                          <div class="col form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validate"></div>
+                          </div>
+                          <div class="col form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validate"></div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                          <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                          <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                          <div class="loading">Loading</div>
+                          <div class="error-message"></div>
+                          <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                      </form> -->
+
+                      <form name="sendMail" id="sendMailForm" >
+                        <div class="form-group user-name">
+                          <label for="name" class="sr-only">Nombre</label>
+                          <!-- "id" for taking name -->
+                          <input data-lang="placeholder-nombre" type="text" class="form-control" required="" id="name" placeholder="">
+                        </div>
+                        <div class="form-group user-email">
+                          <label for="email" class="sr-only">Email</label>
+                          <!-- "id" for taking email -->
+                          <input data-lang="placeholder-correo" type="email" class="form-control" required="" id="email" placeholder="">
+                        </div>
+                        <div class="form-group user-phone">
+                          <label for="subject" class="sr-only">Asunto</label>
+                          <!-- "id" for taking contact number -->
+                          <input data-lang="placeholder-asunto" type="text" class="form-control" required="" id="subject" placeholder="">
+                        </div>
+                        <div class="form-group user-message">
+                          <label for="message" class="sr-only">Mensaje</label>
+                          <!-- "id" for taking message -->
+                          <textarea data-lang="placeholder-mensaje-escriba" class="form-control" rows="5" required="" id="message" placeholder=""></textarea>
+                        </div>
+                      <!-- Notifications for 'error' Or 'successfully'-->
+                        <div class="col-md-12 mailResponse" style="display:none;">
+                          <div class="alert alert-dismissible" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <p class="mailResponseText"></p>
+                          </div>
+                        </div>
+                      <!-- submit button -->
+                      <button type="submit" class="btn-send-mail btn btn-primary"><span data-lang="mensaje-enviar"></span> <i class="fa fa-paper-plane"></i></button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Contact Section -->
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container d-md-flex py-4">
+            <div class="mr-md-auto text-center text-md-left">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>López & Núñez Abogados.</span></strong>
+                    <a data-lang="copyright-aviso-legal" href="docs/AVISO LEGAL LOPEZ Y NUÑEZ ABOGADOS.html" style="color: white;"></a>
+                    <a data-lang="copyright-politica-privacidad" href="docs/POLITICA DE PRIVACIDAD LOPEZ Y NUÑEZ ABOGADOS.html" style="color: white;"></a>
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+      // #sendMailForm takes the data from the form with given ID
+      $( '#sendMailForm' ).submit(function ( e ) {
+          var data = {
+              'name': $('#name').val(),
+              'email': $('#email').val(),
+              'subject': $('#subject').val(),
+              'message' : $('#message').val()
+          };
+          // POST data to the php file
+          $.ajax({ 
+              url: 'mail.php', 
+              data: data,
+              type: 'POST',
+              success: function (data) {
+            // For Notification
+                  document.getElementById("sendMailForm").reset();
+                  var $alertDiv = $(".mailResponse");
+                  $alertDiv.show();
+                  $alertDiv.find('.alert').removeClass('alert-danger alert-success');
+                  $alertDiv.find('.mailResponseText').text("");
+                  if(data.error){
+                      $alertDiv.find('.alert').addClass('alert-danger');
+                      $alertDiv.find('.mailResponseText').text(data.message);
+                  }else{
+                      $alertDiv.find('.alert').addClass('alert-success');
+                      $alertDiv.find('.mailResponseText').text(data.message);
+                  }
+              }
+          });
+          e.preventDefault();
+      });
+    </script>
+    <!-- Get header height and apply that on the #hero section padding top -->
+    <script>
+        // document.getElementById("hero").style.padding-top = document.getElementById("header") + '5vw';
+    </script>
+    <script src="assets/js/lang.js"></script>
+    <script>
+      // Call the updateContent() function to set the initial content of the HTML elements
+      updateContent();        
+    </script>
+</body>
+
+</html>

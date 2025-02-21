@@ -1,0 +1,14 @@
+# Enviar trafico HTTP a HTTPS
+# RewriteEngine On 
+# RewriteCond %{HTTP:X-Forwarded-Proto} !https
+# RewriteRule ^(.*)$ https://lopezynunezabogados.com/$1 [R,L]
+
+RewriteEngine On
+RewriteCond %{ENV:HTTPS} !on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Enviar trafico HTTP a HTTPS
+# RewriteEngine On RewriteCond %{ENV:HTTPS} !on [NC]
+# RewriteCond %{HTTP_HOST} ^lopezynunezabogados.com$ [OR]
+# RewriteCond %{HTTP_HOST} ^www.lopezynunezabogados.com$
+# RewriteRule ^(.*)$ https://lopezynunezabogados.com/$1 [R=301,L,NE]
